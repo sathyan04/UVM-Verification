@@ -1,5 +1,5 @@
 `include "interface.sv"
 
-module ha(variable intf);
-  assign {intf.carry, intf.sum} = intf.a + intf.b;
+module half_addr (interf intr);
+  assign {intr.carry, intr.sum} = intr.a + intr.b;
 endmodule
